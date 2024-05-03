@@ -1,0 +1,58 @@
+{
+  "name": "motorbikefull",
+  "version": "1.0.0",
+  "description": "// dentro de src esta toda la api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos2771/MotorBikeFull.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos2771/MotorBikeFull/issues"
+  },
+  "homepage": "https://github.com/carlos2771/MotorBikeFull#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.4",
+    "@mui/x-data-grid": "^6.18.0",
+    "@react-pdf-viewer/pdfjs-dist-signature": "^2.7.570",
+    "bcryptjs": "^2.4.3",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "react-datepicker": "^4.23.0",
+    "react-number-format": "^5.3.1",
+    "styled-components": "^6.1.0",
+    "sweetalert2": "^11.6.13",
+    "xlsx": "^0.18.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "sharp": "^0.33.2"
+  }
+}
